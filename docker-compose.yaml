@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   nginx-academy:
-    image: "MattyDroidX/nginx-academy:latest"
+    image: "mattydroidx/nginx-academy:latest"
     build:
       context: ./
     container_name: nginx-academy
