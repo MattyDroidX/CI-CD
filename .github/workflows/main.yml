@@ -36,5 +36,5 @@ jobs:
         run: helm version
       - name: Deploying with Helm
         run: |
-          helm upgrade --install nginx-academy chart/nginx-academy --values=deploy/scopes/main.yaml --set image.tag=latest --wait --timeout "3m0s"
+          helm upgrade --install nginx-academy ./chart/nginx-academy --values=deploy/scopes/main.yaml --set image.tag=latest --wait --timeout "3m0s"
 
