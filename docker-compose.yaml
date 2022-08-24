@@ -21,4 +21,4 @@ services:
 
 networks:
   academy-network:
-    name: academy-network
+    name: academy
